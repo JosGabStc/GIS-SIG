@@ -4,6 +4,8 @@ import pandas as pd
 from rasterio.features import shapes
 from shapely.geometry import shape
 
+# Creado por JosGabStc (https://www.linkedin.com/in/josestc/)
+
 ruta_raster = "C:/.../raster.tif" # Añade la ruta de tu archivo RASTER en formato ".tif"
 ruta_shp = "C:/.../geometry.shp" # Añade la ruta de tu archivo SHAPE base en formato ".shp"
 ruta_salida = "C:/.../geometry_statistics.shp" # Añade la ruta de salida para archivo SHAPE final en formato ".shp"
